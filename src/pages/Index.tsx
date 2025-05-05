@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -186,7 +185,7 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            ))
           </div>
           
           <div className="flex justify-center mt-12">
@@ -234,20 +233,20 @@ const Index = () => {
                           key={i}
                           className={`h-4 w-4 ${i < review.rating ? "text-yellow-500 fill-yellow-500" : "text-gray-300"}`} 
                         />
-                      ))}
+                      ))
                     </div>
                   </div>
                 </div>
                 <p className="text-gray-600">{review.text}</p>
               </Card>
-            ))}
+            ))
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
       <section className="relative py-20">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500076656116-558758c991c1')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8')] bg-cover bg-center opacity-20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Готовы отдохнуть от городской суеты?</h2>
@@ -303,7 +302,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>© 2025 ЛесДом. Все права защищены.</p>
+            <p> 2025 ЛесДом. Все права защищены.</p>
           </div>
         </div>
       </footer>
